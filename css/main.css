@@ -1,0 +1,41 @@
+
+/* General
+**************************/
+body {
+	font:12px/22px "Helvetica Neue", "Helvetica", sans-serif;
+}
+	
+
+/* Map
+***************************/
+#map {
+	background:#556270;
+	position:absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+ }
+	
+	
+/* Atribution
+**************************/ 
+.attribution {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #222;
+	background: #CCC;
+	padding: 3px 5px 2px;
+	margin: 0;
+	z-index: 10;
+	opacity:0.6;
+}
+
+.attribution a {
+	color: black;
+}
+.attribution a:hover {
+	text-decoration: none;
+}

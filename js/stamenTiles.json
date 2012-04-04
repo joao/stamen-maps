@@ -1,0 +1,10 @@
+grid(
+{
+	"version": "1.0.0",
+	"scheme": "xyz",
+	"tiles": ["http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"],
+	"toner": ["http://tile.stamen.com/toner/{z}/{x}/{y}.png"],
+	"terrain": ["http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg"]
+	
+}
+)
