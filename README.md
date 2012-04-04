@@ -5,7 +5,7 @@ Built on [Modest Maps](http://modestmaps.com) and the [easey](http://mapbox.com/
 _insert design justification for why easing is greate for interacting with a map_   
 Works great on an iPad/tablets.
 
-## To-Do
+#### To-Do
 —	proper attribution  
 —	toggle between the 3 map styles (Watercolor, Toner, Terrain)
 —	toggle zoom-in/zoom-out  
