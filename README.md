@@ -10,3 +10,5 @@ Works great on an iPad/tablets.
 ### To-Do
 —	toggle between the 3 map styles (Watercolor, Toner, Terrain)
 —	location search box with geocoding
+-   toggle between the 3 maps while maintaning location and zoom level
+—	add HTML5 geolocation, with zoom level
