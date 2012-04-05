@@ -9,5 +9,6 @@ Works great on an iPad/tablets.
 
 ### To-Do
 —	location search box with geocoding  
-—	add HTML5 geolocation, with zoom level  
+—	add HTML5 geolocation, with zoom level 
+—	panning and zooming timing (calculate zoom level and distance variables to affect time) 
 —	disable Terrain layer for outside US

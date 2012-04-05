@@ -5,11 +5,13 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<title>Stamen Maps</title>
 	
+	<!-- Settings for iOS devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	
-	<!-- Icons to save on the Home Screen of iOS devices -->
+	<!-- Favicon + icons to save on the Home Screen of iOS devices -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
@@ -32,10 +34,10 @@
   		<p class="attribution">Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreeMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.</p>
   	</div>
 	
-	<div id="controls">
+	<div id="controls" style="display: none;">
 		<a href="#" onclick="swap('watercolor'); return false;">Watercolor</a>
 		<a href="#" onclick="swap('toner'); return false;">Toner</a>
-		<a href="#" onclick="swap('terrain'); return false;">Terrain <span style="font-weight: normal; font-size: 12px;">(USA only)</a>
+		<a href="#" onclick="swap('terrain'); return false;">Terrain <span style="font-weight: normal; font-size: 12px;">(USA only)</span></a>
 		<a href="#" onclick="go(); return false;">Go</a>
 	</div>
 	<!-- Load maps JS -->
