@@ -8,7 +8,6 @@ Works great on an iPad/tablets.
 ---
 
 ### To-Do
-—	location search box with geocoding
-—	add HTML5 geolocation, with zoom level
-—	icons for favicon and iOS devices
+—	location search box with geocoding  
+—	add HTML5 geolocation, with zoom level  
 —	disable Terrain layer for outside US

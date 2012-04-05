@@ -2,7 +2,8 @@
 /* General
 **************************/
 body {
-	font:12px/22px "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
 }
 	
 
@@ -26,16 +27,16 @@ body {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	color: #222;
-	background: #CCC;
-	padding: 3px 5px 2px;
+	color: #FFF;
+	background: #000;
 	margin: 0;
 	z-index: 10;
 	opacity:0.6;
+	padding: 5px;
 }
 
 .attribution a {
-	color: black;
+	color: #FFF;
 }
 .attribution a:hover {
 	text-decoration: none;
