@@ -3,7 +3,7 @@ var loc = {'lat': '37.7', 'lon': '-85' };
 var zoomLevel = 4;
 var gaia = {'lat': '41.1242488', 'lon': '-8.6070806'};
 var sanfrancisco = {'lat': '37.7706', 'lon': '-122.3782'};
-var goloc = null;
+var goloc = sanfrancisco;
 
 window.onload = function() {
    drawMap('watercolor');

@@ -1,6 +1,13 @@
 
 /* General
 **************************/
+
+/* fix for some iOS viewport quirks */
+html {
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
 body {
 	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 12px;

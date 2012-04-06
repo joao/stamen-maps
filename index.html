@@ -6,7 +6,7 @@
 	<title>Stamen Maps</title>
 	
 	<!-- Settings for iOS devices -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	
@@ -38,9 +38,10 @@
 		<a href="#" onclick="swap('watercolor'); return false;">Watercolor</a>
 		<a href="#" onclick="swap('toner'); return false;">Toner</a>
 		<a href="#" onclick="swap('terrain'); return false;">Terrain <span style="font-weight: normal; font-size: 12px;">(USA only)</span></a>
-		<a href="#" onclick="getLocation(); return false;">Go</a>
+		<a href="#" onclick="go(); return false;">Go</a>
 	</div>
-	<!-- Load maps JS -->
+	
+	<!-- Load map JS -->
 	<script src='js/index.js' type='text/javascript'></script>
 	
 </body>
