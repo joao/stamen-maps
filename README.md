@@ -7,6 +7,7 @@ Built on [Modest Maps](http://modestmaps.com) and the [easey](http://mapbox.com/
 ---
 
 ### To-Do
+-   fix 'your location' functionality to include zoom out, reseting
 —	location search box with geocoding  
 —	add HTML5 geolocation, with zoom level 
 —	panning and zooming timing (calculate zoom level and distance variables to affect time) 
