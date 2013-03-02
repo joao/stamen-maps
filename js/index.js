@@ -6,7 +6,7 @@ var sanfrancisco = {'lat': '37.7706', 'lon': '-122.3782'};
 var goloc = gaia;
 
 window.onload = function() {
-   drawMap('watercolor');
+   drawMap('toner');
 };
 
 
